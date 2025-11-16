@@ -1,0 +1,2 @@
+# chetyrdesyat
+четырдесят
