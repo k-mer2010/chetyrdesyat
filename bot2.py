@@ -1,7 +1,7 @@
 import telebot
     
     # Инициализация бота с использованием его токена
-bot = telebot.TeleBot("8208366636:AAHB34JMkUmdPJUS7n0RCz3vM-5ycaAumzs")
+bot = telebot.TeleBot("Token")
     
     # Обработчик команды '/start' и '/hello'
 @bot.message_handler(commands=['start', 'hello'])
@@ -36,4 +36,5 @@ def handle_poll(poll):
 
 
 # Запуск бота
+
 bot.polling()
